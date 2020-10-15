@@ -153,11 +153,13 @@ while True:
 
 
 if cont == 1:
+
     print('Você não ganhou nenhuma vez (-_-)')
 
 elif cont == 2:
+
     print('Você ganhou uma vez!')
 
-elif contTF >=\
-        2:
+elif contTF > = 2:
+
     print(f'Você ganhou {contTF} vezes consecutivas!')
