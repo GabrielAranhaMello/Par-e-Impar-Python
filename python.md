@@ -1,5 +1,5 @@
 # Par-ou-impar-com-o-Python
-# Esse projeto é sobre um jogo de par ou ímpar contra a maquina
+# Esse projeto é sobre um jogo de par ou ímpar contra o Python
 
 import random
 
