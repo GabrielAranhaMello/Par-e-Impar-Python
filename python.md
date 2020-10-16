@@ -1,14 +1,21 @@
 # Par-ou-imapar-com-o-Python
 # Esse projeto é sobre um jogo em que você escolhe se quer par ou ímpar e um número contra o bot, e o programa ainda calcula quantas vezes você ganhou consecutivamente
 import random
+
 import time
+
 cont = a = contTF = 0
 
 while True:
+
     pí = int(input('Escolha ÍMPAR(1) ou PAR(2): '))
+    
     num = int(input('Digite um número de 1 á 10: '))
+    
     ranb = random.randint(1, 11)
+    
     calc = ranb + num
+    
     cont += 1
 
     if (num + ranb) % 2 == 0:
